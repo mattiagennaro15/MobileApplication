@@ -1,0 +1,6 @@
+framework module Pods_jackal2 {
+  umbrella header "Pods-jackal2-umbrella.h"
+
+  export *
+  module * { export * }
+}

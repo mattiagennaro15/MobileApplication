@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042680F52065E83700B03295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042680F42065E83700B03295 /* AppDelegate.swift */; };
+		042680F72065E83700B03295 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042680F62065E83700B03295 /* LoginViewController.swift */; };
+		042680F92065E83700B03295 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042680F82065E83700B03295 /* RegisterViewController.swift */; };
+		042680FC2065E83700B03295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042680FA2065E83700B03295 /* Main.storyboard */; };
+		042680FE2065E83700B03295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042680FD2065E83700B03295 /* Assets.xcassets */; };
+		0426810D2065F00500B03295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0426810C2065F00500B03295 /* LaunchScreen.storyboard */; };
+		0426810F2065F11800B03295 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0426810E2065F11800B03295 /* Login.storyboard */; };
+		042681112065F15300B03295 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042681102065F15300B03295 /* Register.storyboard */; };
+		049C3396206A881500DA0AA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049C3395206A881500DA0AA6 /* GoogleService-Info.plist */; };
+		04D35AFA20862F2C00622FBF /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D35AF920862F2C00622FBF /* ProfilePageViewController.swift */; };
+		3CCA4FA813C4AA2A34E831BB /* Pods_jackal2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64014ED85618EC349F1AD4CA /* Pods_jackal2.framework */; };
+		BF7B1366207B79C10084E010 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7B1365207B79C10084E010 /* HomeTabBarController.swift */; };
+		BF873BCC207CCB3000959B8F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF873BCB207CCB3000959B8F /* SettingsViewController.swift */; };
+		BFD4E6A6208F605700A61962 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD4E6A5208F605700A61962 /* UserViewController.swift */; };
+		BFF10D63207CDB0200FBBCDA /* ResetPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF10D62207CDB0200FBBCDA /* ResetPassword.storyboard */; };
+		BFF10D65207CDE0700FBBCDA /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF10D64207CDE0700FBBCDA /* ResetPasswordViewController.swift */; };
+		FF3303BF208A42C200DADB82 /* SearchUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3303BE208A42C100DADB82 /* SearchUserViewController.swift */; };
+		FFBF0CF82088E5B20013C5E2 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBF0CF72088E5B20013C5E2 /* HomePageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042680F12065E83700B03295 /* jackal2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jackal2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042680F42065E83700B03295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042680F62065E83700B03295 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		042680F82065E83700B03295 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		042680FB2065E83700B03295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042680FD2065E83700B03295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042681022065E83700B03295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0426810C2065F00500B03295 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0426810E2065F11800B03295 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		042681102065F15300B03295 /* Register.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		047B29012075BC180041875F /* jackal2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jackal2.entitlements; sourceTree = "<group>"; };
+		049C3395206A881500DA0AA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04D35AF920862F2C00622FBF /* ProfilePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		64014ED85618EC349F1AD4CA /* Pods_jackal2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jackal2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661B91229BF8ED5F867331DC /* Pods-jackal2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jackal2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jackal2/Pods-jackal2.debug.xcconfig"; sourceTree = "<group>"; };
+		67236669759D26B2255BBFA3 /* Pods-jackal2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jackal2.release.xcconfig"; path = "Pods/Target Support Files/Pods-jackal2/Pods-jackal2.release.xcconfig"; sourceTree = "<group>"; };
+		BF7B1365207B79C10084E010 /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		BF873BCB207CCB3000959B8F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BFD4E6A5208F605700A61962 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		BFF10D62207CDB0200FBBCDA /* ResetPassword.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ResetPassword.storyboard; sourceTree = "<group>"; };
+		BFF10D64207CDE0700FBBCDA /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		FF3303BE208A42C100DADB82 /* SearchUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUserViewController.swift; sourceTree = "<group>"; };
+		FFBF0CF72088E5B20013C5E2 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042680EE2065E83700B03295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCA4FA813C4AA2A34E831BB /* Pods_jackal2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042680E82065E83700B03295 = {
+			isa = PBXGroup;
+			children = (
+				042680F32065E83700B03295 /* jackal2 */,
+				042680F22065E83700B03295 /* Products */,
+				7C11AC1090EACF50E395AA9C /* Pods */,
+				3541FDBAA9760423FFC69A36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		042680F22065E83700B03295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042680F12065E83700B03295 /* jackal2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042680F32065E83700B03295 /* jackal2 */ = {
+			isa = PBXGroup;
+			children = (
+				047B29012075BC180041875F /* jackal2.entitlements */,
+				0426810E2065F11800B03295 /* Login.storyboard */,
+				042681102065F15300B03295 /* Register.storyboard */,
+				BFF10D62207CDB0200FBBCDA /* ResetPassword.storyboard */,
+				0426810C2065F00500B03295 /* LaunchScreen.storyboard */,
+				042680F42065E83700B03295 /* AppDelegate.swift */,
+				04D35AF920862F2C00622FBF /* ProfilePageViewController.swift */,
+				BFD4E6A5208F605700A61962 /* UserViewController.swift */,
+				042680F62065E83700B03295 /* LoginViewController.swift */,
+				042680F82065E83700B03295 /* RegisterViewController.swift */,
+				BFF10D64207CDE0700FBBCDA /* ResetPasswordViewController.swift */,
+				BF7B1365207B79C10084E010 /* HomeTabBarController.swift */,
+				FFBF0CF72088E5B20013C5E2 /* HomePageViewController.swift */,
+				FF3303BE208A42C100DADB82 /* SearchUserViewController.swift */,
+				BF873BCB207CCB3000959B8F /* SettingsViewController.swift */,
+				042680FA2065E83700B03295 /* Main.storyboard */,
+				042680FD2065E83700B03295 /* Assets.xcassets */,
+				049C3395206A881500DA0AA6 /* GoogleService-Info.plist */,
+				042681022065E83700B03295 /* Info.plist */,
+			);
+			path = jackal2;
+			sourceTree = "<group>";
+		};
+		3541FDBAA9760423FFC69A36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64014ED85618EC349F1AD4CA /* Pods_jackal2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C11AC1090EACF50E395AA9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				661B91229BF8ED5F867331DC /* Pods-jackal2.debug.xcconfig */,
+				67236669759D26B2255BBFA3 /* Pods-jackal2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042680F02065E83700B03295 /* jackal2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042681052065E83700B03295 /* Build configuration list for PBXNativeTarget "jackal2" */;
+			buildPhases = (
+				F3C774A6FC872A3295D95BA3 /* [CP] Check Pods Manifest.lock */,
+				042680ED2065E83700B03295 /* Sources */,
+				042680EE2065E83700B03295 /* Frameworks */,
+				042680EF2065E83700B03295 /* Resources */,
+				3E07DC8CC10E633BEC088891 /* [CP] Embed Pods Frameworks */,
+				0FCD5E1444D281D45414645D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jackal2;
+			productName = jackal2;
+			productReference = 042680F12065E83700B03295 /* jackal2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042680E92065E83700B03295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "University of Leeds COMP3222";
+				TargetAttributes = {
+					042680F02065E83700B03295 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q36TNX5AAN;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 042680EC2065E83700B03295 /* Build configuration list for PBXProject "jackal2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042680E82065E83700B03295;
+			productRefGroup = 042680F22065E83700B03295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042680F02065E83700B03295 /* jackal2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042680EF2065E83700B03295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0426810F2065F11800B03295 /* Login.storyboard in Resources */,
+				BFF10D63207CDB0200FBBCDA /* ResetPassword.storyboard in Resources */,
+				0426810D2065F00500B03295 /* LaunchScreen.storyboard in Resources */,
+				042680FE2065E83700B03295 /* Assets.xcassets in Resources */,
+				042680FC2065E83700B03295 /* Main.storyboard in Resources */,
+				042681112065F15300B03295 /* Register.storyboard in Resources */,
+				049C3396206A881500DA0AA6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FCD5E1444D281D45414645D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jackal2/Pods-jackal2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E07DC8CC10E633BEC088891 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-jackal2/Pods-jackal2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jackal2/Pods-jackal2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C774A6FC872A3295D95BA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jackal2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042680ED2065E83700B03295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042680F92065E83700B03295 /* RegisterViewController.swift in Sources */,
+				BFD4E6A6208F605700A61962 /* UserViewController.swift in Sources */,
+				FF3303BF208A42C200DADB82 /* SearchUserViewController.swift in Sources */,
+				042680F52065E83700B03295 /* AppDelegate.swift in Sources */,
+				BF7B1366207B79C10084E010 /* HomeTabBarController.swift in Sources */,
+				BF873BCC207CCB3000959B8F /* SettingsViewController.swift in Sources */,
+				FFBF0CF82088E5B20013C5E2 /* HomePageViewController.swift in Sources */,
+				BFF10D65207CDE0700FBBCDA /* ResetPasswordViewController.swift in Sources */,
+				04D35AFA20862F2C00622FBF /* ProfilePageViewController.swift in Sources */,
+				042680F72065E83700B03295 /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		042680FA2065E83700B03295 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042680FB2065E83700B03295 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042681032065E83700B03295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042681042065E83700B03295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042681062065E83700B03295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661B91229BF8ED5F867331DC /* Pods-jackal2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = jackal2/jackal2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = Q36TNX5AAN;
+				INFOPLIST_FILE = jackal2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UoL-COMP3222.jackal2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		042681072065E83700B03295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67236669759D26B2255BBFA3 /* Pods-jackal2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = jackal2/jackal2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = Q36TNX5AAN;
+				INFOPLIST_FILE = jackal2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UoL-COMP3222.jackal2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042680EC2065E83700B03295 /* Build configuration list for PBXProject "jackal2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042681032065E83700B03295 /* Debug */,
+				042681042065E83700B03295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042681052065E83700B03295 /* Build configuration list for PBXNativeTarget "jackal2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042681062065E83700B03295 /* Debug */,
+				042681072065E83700B03295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042680E92065E83700B03295 /* Project object */;
+}
